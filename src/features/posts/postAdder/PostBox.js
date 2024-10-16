@@ -22,6 +22,9 @@ const PostBox = () => {
         }
     }, [fetchPosts, dispatch]);
 
+    // puthusu
+    const add = 0;
+
     const newArr = [...posts].reverse();
 
     const renderedPosts = newArr.map((post) => (
